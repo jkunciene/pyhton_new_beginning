@@ -17,7 +17,7 @@ else:
 height = input("Koks tavo ugis?")
 units = input("Meter(m) or Foot(ft) ?")
 
-if units == "ft":
+if units.upper() == "FT":
     converted = float(height) / 3.2808
     print("Yuor height in Meter: " + str(converted))
 else:
