@@ -22,3 +22,7 @@ print(age)
 
 # jei nezinau, koki duomenu tipa gaunu, visada galiu pasitikrinti
 print(type(name))
+
+#strings methods
+course = 'Python for beginners'
+print(course.upper())
